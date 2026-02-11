@@ -2,10 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carta para Andrea :D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    hola mundo 
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Carta para ti ♡</p>
+    </div>
+
+    <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">¿Quieres pasar el 14 de Febrero conmigo?</h1>
+
+            <img src="cat_heart.gif" class="cat" id="letter-cat">
+        
+            <div class="buttons" id="letter-buttons">
+                <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+                <div class="no-wrapper">
+                    <img src="no.png" class="btn no-btn" alt="No" />
+                </div>
+            </div>
+
+            <p id="final-text" class="final-text" style="display: none">
+              <strong>Te amo mucho</strong> Eres mi niña hermosa y me haces muy feliz, espero que podamos pasar un día increíble juntos. Gracias por ser tan maravillosa y por hacer que cada día sea especial.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
